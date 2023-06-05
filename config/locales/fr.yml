@@ -1,0 +1,39 @@
+fr:
+  shared:
+    reset: Réinitialiser
+    filter: Filtre
+    home: Accueil
+    actions: Actions
+    'no': Non
+    'yes': Oui
+  organization:
+    account_confirmed: L'Advanced Translation Editor a été activé pour votre site.
+    signed_in: Vous êtes connecté
+  subscription:
+    assigned: L'accès a bien été accordé
+    assigning_error: Impossible d'accorder l'accès
+    removed: L'accès a bien été supprimé
+    removing_error: Impossible de supprimer l'accès
+    apply_changes_and_go_back: Appliquer les modifications et retourner à votre site
+    go_back_to_your_site: Retourner à votre site
+  translator:
+    your_translators: Vos traducteurs
+    missing_translators: Vous n'avez pas ajouté de traducteur dans votre WordPress.
+    email: E-mail
+    name: Nom
+    websites: Sites Web
+    subscription_assigned: A accès ?
+    remove_subscription: Supprimer l'accès
+    assign_subscription: Accorder l'accès
+  unauthorized:
+    title: Non autorisé
+    first_line: Nous sommes désolés mais le processus d'authentification a échoué.
+    second_line: Veuillez revenir au module d'extension WPML et cliquez à nouveau sur le lien de redirection.
+  confirmation_email:
+    title: E-mail de confirmation
+    opening: Bonjour %{name}
+    first_line: Vous êtes presque prêt à utiliser Advanced Translation Editor de WPML pour %{website_url}.
+    second_line_html: Veuillez cliquer sur %{activation_link} pour terminer l'installation.
+    second_line_plain: Pour terminer l'installation, veuillez visiter l'URL suivante
+    activation_link: lien d'activation
+    ending: À votre service
