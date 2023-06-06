@@ -17,6 +17,9 @@ msgstr ""
 msgid "Access to the camera was denied. To enable Shield Authenticator to utilize the camera, it is necessary to provide permission through the settings"
 msgstr ""
 
+msgid "Access Denied"
+msgstr ""
+
 #: app/qr/index.tsx:82
 #: app/qr/index.tsx:117
 #: src/components/AddSite.tsx:14
