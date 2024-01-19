@@ -1,0 +1,344 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+# To cause PTC webhook
+
+en:
+  "on": "On"
+  "off": "Off"
+
+  "yes": "Yes"
+  "no": "No"
+  "or": "OR"
+
+  account: "Account"
+  linked_account: "Linked account"
+  account_linkage: "Account linkage"
+  users: "User"
+  application_name: "Application name"
+  admin_page: "Admin page"
+  first_name: "First name"
+  last_name: "Last name"
+  full_name: "Full name"
+  uuid: "UUID"
+  registered_by_app: "Registered by app"
+  application: "Application"
+  no_app: "No app"
+  sso_app: "SSO(direct)"
+  otp: "OTP"
+  delete: "Delete"
+  disable_otp: "Disable OTP"
+  enable_otp: "Enable OTP"
+  otp_enabled: "OTP is enabled"
+  otp_not_enabled: "OTP is not enabled"
+  otp_input: "6 digit OTP Code"
+  backup_code_input: "Backup codes"
+  confirm_otp_code: "Confirm OTP Code"
+  verify: "Verify"
+  set_up_two_factor_authentication: "Setup two factor authentication"
+  resend_confirmation_instruction: "Resend confirmation instructions"
+  our_products: "Our products"
+  go_back_to: "Go back to"
+  home: "Home"
+
+  session_logout: "Session logout"
+  published: "Published"
+  unpublished: "Unpublished"
+
+  complete_mfa_instructions: "Please follow below instructions to setup two factor authentication"
+  mfa_setup_step_1: "1. Scan this QRCode with Authenticator app"
+  mfa_setup_step_1_detail: "Please use one of the two factor authentication app to scan this QR code below. We recommend using either %{google_authenticator} or %{twilio_authy}"
+  mfa_with_uri: " If you are not be able to scan the QR code above, you can also use the following URI to add in the authenticator app"
+  mfa_setup_completed: "Two Factor authentication setup completed"
+  mfa_setup_completed_details: "OTP has been setup successfully with account <b>%{email}</b>"
+  mfa_setup_step_2: "2. Enter the code"
+  mfa_setup_step_2_detail: "Get the 6 digits code from the authenticator app and enter in the input below"
+  mfa_authentication: "2 Factor authentication"
+  mfa_authentication_detail: "Please enter your OTP code to complete the login"
+  mfa_disable_otp: "Are you sure you want to disable the OTP?"
+  backup_codes: "Backup codes"
+  using_authenticator_app: "Using OTP code"
+  using_backup_code: "Using backup codes"
+  using_different_account: "Using different account"
+
+  update_user: "Update user"
+
+  skip_otp_verification: "Account <b>%{account}</b> has skipped the OTP verification"
+
+  backup_codes_detail: "Here are your backup codes. Keep them safe, you would need them if you lost your phone or authenticator apps"
+  back_to: "Back to"
+  my_profile: "My Profile"
+
+  confirm_delete: "Are you sure to delete %{model_name}?"
+  confirm_send_confirmation_instruction: "Are you sure to send the confirmation instruction?"
+  confirm_disable_otp: "Are you sure to disable OTP for %{model_name}?"
+  confirm_action: "Are you sure %{action}?"
+  current_unconfirmed_email: "Waiting confirmation for %{email}"
+
+  forget_your_password: "Forget password?"
+
+  complete_profile: "Please complete your profile"
+  save_and_continue: "Save and continue"
+  save_changes: "Save changes"
+  use_different_account: "Use different account?"
+  front_channel_log_out: "Front channel logout"
+  back_channel_log_out: "Back channel logout"
+
+  no_app_is_connected: "No app is connected"
+
+  forget_password: "Forget password"
+  forget_password_detail: "Enter the email associated with your account and we'll send you an email with instructions to reset your password."
+
+  resend_unlock_instruction: "Resend unlock instructions"
+  resend_unlock_detail: "Enter the email associated with your account and we'll send you an email with unlock instructions."
+
+  change_my_password: "Change my password"
+  change_your_password: "Change your password"
+  change_your_password_detail_min: "Enter your new password with <b> %{min_char_count} </b> characters minimum"
+  change_your_password_detail: "Enter your new password to complete the reset password process"
+  current_password: "Current password"
+  new_password: "New password"
+
+  email: "Email"
+  password: "Password"
+  password_confirmation: "Password confirmation"
+  send_me_reset_password_instruction: "Send me reset password instructions"
+  leave_password_blank: "Leave blank if you don't want to change it"
+  required_current_password: "We need your current password to confirm your changes"
+  log_in: "Log in"
+  log_out: "Log out"
+  sign_out: "Sign out"
+  sign_up: "Sign up"
+  register: "Register"
+  remember_me: "Remember me"
+  dont_have_an_account_yet: "Don't have an account yet?"
+  did_not_recieve_unlock_instruction: "Did not receive unlocked instructions?"
+  already_having_account: "Already having an account?"
+
+  account_info: "Account information"
+  account_security: "Account security"
+  edit_profile: "Edit profile"
+  change_password: "Change password"
+  edit_model: "Edit %{model}"
+  update: "Update"
+  # support is a built-in in active-support library
+  wpml_support: "Support"
+  unhappy: "Unhappy?"
+  cancel_my_account: "Cancel my account"
+
+  ensure_alert: "Ensure that these requirements are met:"
+
+  signing_out_and_wait: "Signing out, please wait!"
+
+  errors:
+    404: "404 Page not found"
+    403: "403 Request forbidden"
+    500: "500 Internal Server Error"
+
+  oauth2_provider:
+    google_oauth2: "Google"
+    github: "Github"
+    microsoft_office365: "Microsoft365"
+
+  oauth_unlinker:
+    unlinked: "The %{provider} account has been unlinked from your account"
+    error:
+      not_allowed: "Not allowed"
+      invalid_provider_name: "%{provider} is invalid"
+
+  oauth_linker:
+    linked: "The %{provider} account has been linked successfully"
+    error:
+      your_account_linked: "Your account has already been linked to the %{provider} account"
+      other_account_linked: "Another user has already been linked to this %{provider} account"
+      email_exist: "The email %{email} has already been used by another user"
+
+  oauth2:
+    email:
+      blank: "Your %{provider} account does not have a valid email, please set your email in your %{provider} account and then retry."
+
+  flash:
+    error: "Error"
+    alert: "Alert"
+    notice: "Info"
+
+  admin:
+    unauthorized_error: "You're not allowed to visit the page"
+    updated: "%{model_name} has been updated successfully"
+    restored: "%{model_name} has been restored successfully"
+    restore_failed: "Failed to retore %{model_name} with reason %{reason}"
+    update_failed: "Failed to update %{model_name}"
+    confirm_deletion: "Are you sure to delete %{model_name}?"
+    confirm_restoration: "Are you sure to restore %{model_name}?"
+    created: "%{model_name} has been created successfully"
+    deleted: "%{model_name} has been deleted successfully"
+    required_selection: "Please select %{model_name} to %{model_action}"
+
+  doorkeeper:
+    applications:
+      invalid_credentials: "Invalid email and/or password"
+      unsupported_auth_method: "Unsupported authentication method."
+
+  button:
+    sign_in_with_google: "Google"
+    sign_in_with_github: "Github"
+    sign_in_with_microsoft_office365: "Microsoft"
+    connect: "Connect"
+    disconnect: "Disconnect"
+
+  otgs_account:
+    email:
+      is_chosen: "has already been taken"
+      does_not_exist: "does not exist"
+      app_misconfiguration: "app %{app_name} is misconfigured"
+
+  account_inquiry:
+    email:
+      not_found: "not found"
+      is_reset: "<b>%{email_starred}</b> does not have a usable password. It is possible that your account was reset. Please check <b>support</b> for more information"
+      failed_to_connect: "could not be validated due to a connection error. Please try again later"
+
+  user_authenticator:
+    failed_to_connect: "There was an error connecting to the authentication server. Please try again later"
+    email:
+      not_found: "Email not found"
+
+    password:
+      incorrect: "Password incorrect"
+      is_reset_or_invalid: "It looks like the <b>%{email_starred}</b> does not have a usable password. It is possible that your account was reset. Please check <b>support</b> for more information"
+
+  remote_account_authenticator:
+    # unsupported_auth_method: 'Unsupported authentication method.'
+
+  email_update_confirmation:
+    email_already_exists: "%{email} already exists in %{app_name}"
+    failed_to_update: "Failed to update your profile"
+    failed_to_connect: "could not be validated due to a connection error. Please try again later"
+
+  user_otp_authenticator:
+    otp_attempt:
+      incorrect: "Incorrect OTP"
+
+  user_otp_verifier:
+    user:
+      not_found: "User not found"
+
+    otp_code:
+      incorrect: "OTP code is incorrect"
+
+    backup_code:
+      incorrect: "Backup code is incorrect"
+
+  alert:
+    create:
+      success: "%{model_name} has successfully been created"
+    delete:
+      success: "%{model_name} has successfully been deleted"
+  notice:
+    session:
+      otp_required: "Please enter your OTP"
+      complete_profile_required: "Please complete your profile"
+
+  session_state:
+    client_uri:
+      blank: "Client URI can not be blank"
+  sse_session_state:
+    change:
+      signed_in: "You have been logged in!, Reloading..."
+      signed_out: "You have been logged out!, Reloading..."
+  loading:
+    please_wait: "Please wait..."
+    changing_password: "Changing password..."
+    signing_up: "Signing up..."
+    signing_in: "Signing in..."
+    sending_reset_password_instruction: "Sending reset password instruction..."
+
+  custom_theme:
+    # for spec
+    wpml_test:
+      login:
+        bottom:
+          message: "Don't have an account yet?"
+          label: "Sign In"
+          href: "/login"
+      social:
+        hide: "no"
+
+    wpml:
+      login:
+        bottom:
+          message: "Don't have a WPML account yet?"
+          label: "Buy WPML"
+          href: "https://wpml.org/purchase/"
+        social:
+          hide: "yes"
+
+    translation_hub:
+      login:
+        bottom:
+          message: "Don't have a Translation Hub account yet?"
+          label: "Register"
+          href: "/users/sign_up"
+
+        social:
+          hide: "yes"
+
+    ptc:
+      login:
+        bottom:
+          message: "Don't have a PTC account yet?"
+          label: "Register"
+          href: "/users/sign_up"
+      social:
+        hide: "yes"
+
+  api:
+    record:
+      errors:
+        not_found: "Record not found"
+
+    application:
+      shared_key:
+        errors:
+          invalid: "Shared key is invalid"
+
+      signature:
+        errors:
+          invalid: "Signature is invalid"
+          expired: "Signature is expired"
+
+      client_id:
+        errors:
+          invalid: "Client id is invalid"
+
+      confidential:
+        errors:
+          invalid: "App is not allowed, contact the SSO administrator"
